@@ -1,0 +1,99 @@
+.alt_search {
+    text-align: right;
+    padding: 50px;
+}
+
+body {
+    text-align: center;
+}
+
+.search_button{
+    text-align: center;
+    padding: 10px;
+}
+
+#adv_search_button{
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    width: fit-content;
+    height: 40px;
+}
+
+#adv_search_button_div{
+    text-align: right;
+    padding-right: 50px;
+    grid-column: 2;
+}
+
+.search_box{
+    border-radius: 15px;
+    width: 600px;
+    height: 20px;
+}
+
+.adv_search_box{
+    position: relative;
+    top: 20px;
+    width: 600px;
+    height: 20px;
+}
+
+.range_search_box{
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 20px;
+}
+
+.google_logo{
+    height: 300px;
+    width: 500px;
+}
+
+#find_header{
+    float: left;
+    padding-left: 50px;
+    display: inline;
+}
+
+#todo_header {
+    position: relative;
+    left: 30px;
+    display: inline-block;
+}
+
+#narrow_header {
+    grid-column: span 3;
+    text-align: left;
+}
+
+#etc_div {
+    position: absolute;
+    float: left;
+    left:50px;
+    top: 880px;
+}
+
+#find_todo_div {
+    height: 50px;
+}
+
+h5 {
+    text-align: left;
+}
+
+.three_part{
+    position: absolute;
+    display: grid;
+    padding-left: 50px;
+    grid-template-columns: 200px 660px 400px;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+}
+
+.range_grid{
+    display: grid;
+    grid-template-columns: 200px 300px 50px 310px 400px;
+    grid-template-rows: 40px;
+    grid-column: span 3;
+}
